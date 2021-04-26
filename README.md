@@ -2,16 +2,18 @@
 本次项目使用unittest来完成多自动化脚本的执行
   
 ##### 分析  
-1. 目录结构
+1. 目录结构  
 --unittest  
- |-runtests.py  
- |-tests  
-  |-test1.py  
-  |-test2.py  
-  |-__init__.py  
+&nbsp;&nbsp;|--runtests.py  
+&nbsp;&nbsp;|--report  
+&nbsp;&nbsp;&nbsp;&nbsp;|—-report.html  
+&nbsp;&nbsp;|--tests   
+&nbsp;&nbsp;&nbsp;&nbsp;|--test1.py   
+&nbsp;&nbsp;&nbsp;&nbsp;|--test2.py   
+&nbsp;&nbsp;&nbsp;&nbsp;|--__init__.py   
   
 2. 功能剖析  
-通过执行runtests.py来执行tests文件夹下的全部test*.py脚本
+通过执行runtests.py来执行tests文件夹下的全部test*.py脚本，然后用HTMLtestrunner输出测试报告
 
 
 ##### 代码实现  
